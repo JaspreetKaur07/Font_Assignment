@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('my_background.avif');
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em; /* Larger title font size */
+    color: lightpink;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.content {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+    color: lavenderblush;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+}
+
+#section1 {
+    font-family: 'Lobster', cursive;
+    background-image: url('section_background.gif');
+    background-size: cover;
+}
+
+#section2 {
+    font-family: 'Dancing Script', cursive;
+    background-image: url('section_background.gif');
+    background-size: cover;
+}
+
+#section3 {
+    font-family: 'Lobster', cursive;
+    background-image: url('section_background.gif');
+    background-size: cover;
+}
+
+#section4 {
+    font-family: 'Dancing Script', cursive;
+    background-image: url('section_background.gif');
+    background-size: cover;
+}
+
+#section5 {
+    font-family: 'Lobster', cursive;
+    background-image: url('section_background.gif');
+    background-size: cover;
+}
+
+#section6 {
+    font-family: 'Dancing Script', cursive;
+    background-image: url('section_background.gif');
+    background-size: cover;
+}
+
+#section7 {
+    font-family: 'Lobster', cursive;
+    background-image: url('section_background.gif');
+    background-size: cover;
+}
