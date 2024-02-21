@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('my_background.avif');
+    background-size: cover;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+}
+
+
+.title {
+    margin-bottom: 20px;
+    font-family: 'Sacramento', serif;
+    font-size: 3em; 
+    color:lightcoral; /* HotPink color */
+}
+
+
+.section {
+    margin-bottom: 20px;
+}
+
+
+.content {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* A custom font, size, color, and italic style for the paragraph */
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+    /*color: lavenderblush; */
+    font-style: italic;
+}
+
+/* Applied different fonts and background images to sections */
+#section1 {
+    font-family: 'Dancing Script', cursive;
+    background-image: url('section_background.gif');
+    background-size: cover;
+    color: lavenderblush; 
+}
+
+#section2 {
+    font-family: 'Caveat', monospace;
+    background-image: url('section_background.gif');
+    background-size: cover;
+    color: lightyellow; 
+}
+
+#section3 {
+    font-family: 'Kristi', sans-serif;
+    background-image: url('section_background.gif');
+    background-size: cover;
+    color: lavenderblush; 
+}
+
+#section4 {
+    font-family: 'Parisienne', cursive;
+    background-image: url('section_background.gif');
+    background-size: cover;
+    color: lightyellow; 
+    
+}
+
+#section5 {
+    font-family: 'Satisfy', monospace;
+    background-image: url('section_background.gif');
+    background-size: cover;
+    color: lavenderblush; 
+}
+
+#section6 {
+    font-family: 'Shadows Into Light', sans-serif;
+    background-image: url('section_background.gif');
+    background-size: cover;
+    color: lightyellow; 
+}
+
+#section7 {
+    font-family: 'Tangerine', cursive;
+    background-image: url('section_background.gif');
+    background-size: cover;
+    color: lavenderblush; 
+}
+
+/* Defined keyframes for moving animation */
+@keyframes move {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+/* Applied animation to "I Love You" text */
+.love-text {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: move 1s infinite;
+    color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px pink; 
+}
